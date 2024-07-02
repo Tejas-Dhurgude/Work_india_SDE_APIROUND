@@ -8,14 +8,14 @@
    ```
 
 2. Install dependencies:
-   npm i express jsonwebtoken
    ```
-
-3. Set up the MySQL database:
+   npm i express jsonwebtoken
+   
+4. Set up the MySQL database:
    - Create a database named `inshorts`
    - Update name of database and password in .env
 
-4. Start the server:
+5. Start the server:
    ```bash
    node server
    ```
