@@ -1,7 +1,30 @@
-# Work_india_SDE_APIROUND
-git clone https://github.com/Tejas-Dhurgude/Work_india_SDE_APIROUND
-
-npm i expres jsonwebtoken dotenv 
 
 
-node app.js
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tejas-Dhurgude/Work_india_apiround
+   ```
+
+2. Install dependencies:
+   npm i express jsonwebtoken
+   ```
+
+3. Set up the MySQL database:
+   - Create a database named `inshorts`
+   - Update name of database and password in .env
+
+4. Start the server:
+   ```bash
+   node server
+   ```
+
+## Routes
+
+- POST /api/signup: Create a new user account
+- POST /api/login: User login
+- POST /api/shorts/create: Create a new news short
+- GET /api/shorts: Get all news shorts
+
+Test:
